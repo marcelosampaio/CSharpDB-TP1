@@ -1,0 +1,53 @@
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+out/
+publish/
+
+# .NET generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+*.temp
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Rider / JetBrains
+.idea/
+*.iml
+.idea_modules/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Temporary and backup files
+*.bak
+*.swp
+*.swo
+*~
