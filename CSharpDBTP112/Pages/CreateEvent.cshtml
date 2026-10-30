@@ -1,0 +1,29 @@
+@page
+@model CSharpDBTP112.Pages.CreateEventModel
+
+@{
+    ViewData["Title"] = "Cadastrar Evento";
+}
+
+<h1>Cadastrar Evento</h1>
+
+<form method="post">
+
+    <div>
+        <label asp-for="Event.Titulo">Título</label>
+        <input asp-for="Event.Titulo" />
+    </div>
+
+    <div>
+        <label asp-for="Event.Data">Data</label>
+        <input asp-for="Event.Data" type="datetime-local" />
+    </div>
+
+    <div>
+        <label asp-for="Event.Local">Local</label>
+        <input asp-for="Event.Local" />
+    </div>
+
+    <button type="submit">Cadastrar Evento</button>
+
+</form>
